@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0D8E8F1A0322CC000127B9 /* MultiPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0D8E8E1A0322CC000127B9 /* MultiPeer.m */; };
+		BE411D7F1A084C6A00FA7BDD /* tabicon-android-30.png in Resources */ = {isa = PBXBuildFile; fileRef = BE411D791A084C6A00FA7BDD /* tabicon-android-30.png */; };
+		BE411D801A084C6A00FA7BDD /* tabicon-android-50.png in Resources */ = {isa = PBXBuildFile; fileRef = BE411D7A1A084C6A00FA7BDD /* tabicon-android-50.png */; };
+		BE411D811A084C6A00FA7BDD /* tabicon-apple-30.png in Resources */ = {isa = PBXBuildFile; fileRef = BE411D7B1A084C6A00FA7BDD /* tabicon-apple-30.png */; };
+		BE411D821A084C6A00FA7BDD /* tabicon-apple-50.png in Resources */ = {isa = PBXBuildFile; fileRef = BE411D7C1A084C6A00FA7BDD /* tabicon-apple-50.png */; };
+		BE411D831A084C6A00FA7BDD /* tabicon-monitor-30.png in Resources */ = {isa = PBXBuildFile; fileRef = BE411D7D1A084C6A00FA7BDD /* tabicon-monitor-30.png */; };
+		BE411D841A084C6A00FA7BDD /* tabicon-monitor-50.png in Resources */ = {isa = PBXBuildFile; fileRef = BE411D7E1A084C6A00FA7BDD /* tabicon-monitor-50.png */; };
+		BE411D871A08668900FA7BDD /* AndroidNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE411D861A08668900FA7BDD /* AndroidNetworking.m */; };
+		BE411D8A1A0866AD00FA7BDD /* AndroidNetworkingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE411D891A0866AD00FA7BDD /* AndroidNetworkingDelegate.m */; };
+		BEC318B61AD983BE0013A96A /* Screenshot-RainbowConnection3.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC318B31AD983BE0013A96A /* Screenshot-RainbowConnection3.png */; };
+		BEC318B71AD983BE0013A96A /* Screenshot-RainbowConnection1.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC318B41AD983BE0013A96A /* Screenshot-RainbowConnection1.png */; };
+		BEC318B81AD983BE0013A96A /* Screenshot-RainbowConnection2.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC318B51AD983BE0013A96A /* Screenshot-RainbowConnection2.png */; };
+		BED723E819FF576900DEF735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BED723E719FF576900DEF735 /* main.m */; };
+		BED723EB19FF576900DEF735 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BED723EA19FF576900DEF735 /* AppDelegate.m */; };
+		BED723F119FF576900DEF735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED723EF19FF576900DEF735 /* Main.storyboard */; };
+		BED723F319FF576900DEF735 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED723F219FF576900DEF735 /* Images.xcassets */; };
+		BED723F619FF576900DEF735 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED723F419FF576900DEF735 /* LaunchScreen.xib */; };
+		BED7240219FF576900DEF735 /* MultiPeerConnectivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BED7240119FF576900DEF735 /* MultiPeerConnectivityTests.m */; };
+		BED7240D19FF7D1300DEF735 /* MainWithTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BED7240C19FF7D1300DEF735 /* MainWithTabBar.m */; };
+		BED7241019FF80CF00DEF735 /* ActivityMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = BED7240F19FF80CF00DEF735 /* ActivityMonitor.m */; };
+		BEE71C681A0616A7002E1EE0 /* Android.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE71C671A0616A7002E1EE0 /* Android.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BED723FC19FF576900DEF735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED723DA19FF576900DEF735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED723E119FF576900DEF735;
+			remoteInfo = MultiPeerConnectivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE0D8E8D1A0322CC000127B9 /* MultiPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPeer.h; sourceTree = "<group>"; };
+		BE0D8E8E1A0322CC000127B9 /* MultiPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPeer.m; sourceTree = "<group>"; };
+		BE411D791A084C6A00FA7BDD /* tabicon-android-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabicon-android-30.png"; path = "MultiPeerConnectivity/tabicon-android-30.png"; sourceTree = "<group>"; };
+		BE411D7A1A084C6A00FA7BDD /* tabicon-android-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabicon-android-50.png"; path = "MultiPeerConnectivity/tabicon-android-50.png"; sourceTree = "<group>"; };
+		BE411D7B1A084C6A00FA7BDD /* tabicon-apple-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabicon-apple-30.png"; path = "MultiPeerConnectivity/tabicon-apple-30.png"; sourceTree = "<group>"; };
+		BE411D7C1A084C6A00FA7BDD /* tabicon-apple-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabicon-apple-50.png"; path = "MultiPeerConnectivity/tabicon-apple-50.png"; sourceTree = "<group>"; };
+		BE411D7D1A084C6A00FA7BDD /* tabicon-monitor-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabicon-monitor-30.png"; path = "MultiPeerConnectivity/tabicon-monitor-30.png"; sourceTree = "<group>"; };
+		BE411D7E1A084C6A00FA7BDD /* tabicon-monitor-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabicon-monitor-50.png"; path = "MultiPeerConnectivity/tabicon-monitor-50.png"; sourceTree = "<group>"; };
+		BE411D851A08668900FA7BDD /* AndroidNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidNetworking.h; sourceTree = "<group>"; };
+		BE411D861A08668900FA7BDD /* AndroidNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidNetworking.m; sourceTree = "<group>"; };
+		BE411D881A0866AD00FA7BDD /* AndroidNetworkingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidNetworkingDelegate.h; sourceTree = "<group>"; };
+		BE411D891A0866AD00FA7BDD /* AndroidNetworkingDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidNetworkingDelegate.m; sourceTree = "<group>"; };
+		BEC318B31AD983BE0013A96A /* Screenshot-RainbowConnection3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot-RainbowConnection3.png"; sourceTree = "<group>"; };
+		BEC318B41AD983BE0013A96A /* Screenshot-RainbowConnection1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot-RainbowConnection1.png"; sourceTree = "<group>"; };
+		BEC318B51AD983BE0013A96A /* Screenshot-RainbowConnection2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot-RainbowConnection2.png"; sourceTree = "<group>"; };
+		BED723E219FF576900DEF735 /* MultiPeerConnectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPeerConnectivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED723E619FF576900DEF735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED723E719FF576900DEF735 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BED723E919FF576900DEF735 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BED723EA19FF576900DEF735 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BED723F019FF576900DEF735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BED723F219FF576900DEF735 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BED723F519FF576900DEF735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BED723FB19FF576900DEF735 /* MultiPeerConnectivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiPeerConnectivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED7240019FF576900DEF735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED7240119FF576900DEF735 /* MultiPeerConnectivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiPeerConnectivityTests.m; sourceTree = "<group>"; };
+		BED7240B19FF7D1300DEF735 /* MainWithTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWithTabBar.h; sourceTree = "<group>"; };
+		BED7240C19FF7D1300DEF735 /* MainWithTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWithTabBar.m; sourceTree = "<group>"; };
+		BED7240E19FF80CF00DEF735 /* ActivityMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityMonitor.h; sourceTree = "<group>"; };
+		BED7240F19FF80CF00DEF735 /* ActivityMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityMonitor.m; sourceTree = "<group>"; };
+		BEE71C661A0616A7002E1EE0 /* Android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Android.h; sourceTree = "<group>"; };
+		BEE71C671A0616A7002E1EE0 /* Android.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Android.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BED723DF19FF576900DEF735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED723F819FF576900DEF735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0D8E8C1A00E0EB000127B9 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				BED7240E19FF80CF00DEF735 /* ActivityMonitor.h */,
+				BED7240F19FF80CF00DEF735 /* ActivityMonitor.m */,
+			);
+			name = Monitor;
+			sourceTree = "<group>";
+		};
+		BE0D8E901A0322D9000127B9 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				BE0D8E8D1A0322CC000127B9 /* MultiPeer.h */,
+				BE0D8E8E1A0322CC000127B9 /* MultiPeer.m */,
+			);
+			name = Apple;
+			sourceTree = "<group>";
+		};
+		BE411D8B1A0866C800FA7BDD /* Android */ = {
+			isa = PBXGroup;
+			children = (
+				BE411D881A0866AD00FA7BDD /* AndroidNetworkingDelegate.h */,
+				BE411D891A0866AD00FA7BDD /* AndroidNetworkingDelegate.m */,
+				BE411D851A08668900FA7BDD /* AndroidNetworking.h */,
+				BE411D861A08668900FA7BDD /* AndroidNetworking.m */,
+				BEE71C661A0616A7002E1EE0 /* Android.h */,
+				BEE71C671A0616A7002E1EE0 /* Android.m */,
+			);
+			name = Android;
+			sourceTree = "<group>";
+		};
+		BE411D8C1A0866FD00FA7BDD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE411D791A084C6A00FA7BDD /* tabicon-android-30.png */,
+				BE411D7A1A084C6A00FA7BDD /* tabicon-android-50.png */,
+				BE411D7B1A084C6A00FA7BDD /* tabicon-apple-30.png */,
+				BE411D7C1A084C6A00FA7BDD /* tabicon-apple-50.png */,
+				BE411D7D1A084C6A00FA7BDD /* tabicon-monitor-30.png */,
+				BE411D7E1A084C6A00FA7BDD /* tabicon-monitor-50.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BEC318B21AD9833C0013A96A /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				BEC318B31AD983BE0013A96A /* Screenshot-RainbowConnection3.png */,
+				BEC318B41AD983BE0013A96A /* Screenshot-RainbowConnection1.png */,
+				BEC318B51AD983BE0013A96A /* Screenshot-RainbowConnection2.png */,
+			);
+			name = Screenshots;
+			sourceTree = "<group>";
+		};
+		BED723D919FF576900DEF735 = {
+			isa = PBXGroup;
+			children = (
+				BEC318B21AD9833C0013A96A /* Screenshots */,
+				BE411D8C1A0866FD00FA7BDD /* Images */,
+				BED723E419FF576900DEF735 /* MultiPeerConnectivity */,
+				BED723FE19FF576900DEF735 /* MultiPeerConnectivityTests */,
+				BED723E319FF576900DEF735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BED723E319FF576900DEF735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BED723E219FF576900DEF735 /* MultiPeerConnectivity.app */,
+				BED723FB19FF576900DEF735 /* MultiPeerConnectivityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BED723E419FF576900DEF735 /* MultiPeerConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				BE411D8B1A0866C800FA7BDD /* Android */,
+				BE0D8E8C1A00E0EB000127B9 /* Monitor */,
+				BE0D8E901A0322D9000127B9 /* Apple */,
+				BED7240B19FF7D1300DEF735 /* MainWithTabBar.h */,
+				BED7240C19FF7D1300DEF735 /* MainWithTabBar.m */,
+				BEE71C651A033298002E1EE0 /* System */,
+			);
+			path = MultiPeerConnectivity;
+			sourceTree = "<group>";
+		};
+		BED723E519FF576900DEF735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BED723E619FF576900DEF735 /* Info.plist */,
+				BED723E719FF576900DEF735 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BED723FE19FF576900DEF735 /* MultiPeerConnectivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				BED7240119FF576900DEF735 /* MultiPeerConnectivityTests.m */,
+				BED723FF19FF576900DEF735 /* Supporting Files */,
+			);
+			path = MultiPeerConnectivityTests;
+			sourceTree = "<group>";
+		};
+		BED723FF19FF576900DEF735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BED7240019FF576900DEF735 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE71C651A033298002E1EE0 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BED723E919FF576900DEF735 /* AppDelegate.h */,
+				BED723EA19FF576900DEF735 /* AppDelegate.m */,
+				BED723EF19FF576900DEF735 /* Main.storyboard */,
+				BED723F219FF576900DEF735 /* Images.xcassets */,
+				BED723F419FF576900DEF735 /* LaunchScreen.xib */,
+				BED723E519FF576900DEF735 /* Supporting Files */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BED723E119FF576900DEF735 /* MultiPeerConnectivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED7240519FF576900DEF735 /* Build configuration list for PBXNativeTarget "MultiPeerConnectivity" */;
+			buildPhases = (
+				BED723DE19FF576900DEF735 /* Sources */,
+				BED723DF19FF576900DEF735 /* Frameworks */,
+				BED723E019FF576900DEF735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiPeerConnectivity;
+			productName = MultiPeerConnectivity;
+			productReference = BED723E219FF576900DEF735 /* MultiPeerConnectivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BED723FA19FF576900DEF735 /* MultiPeerConnectivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED7240819FF576900DEF735 /* Build configuration list for PBXNativeTarget "MultiPeerConnectivityTests" */;
+			buildPhases = (
+				BED723F719FF576900DEF735 /* Sources */,
+				BED723F819FF576900DEF735 /* Frameworks */,
+				BED723F919FF576900DEF735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED723FD19FF576900DEF735 /* PBXTargetDependency */,
+			);
+			name = MultiPeerConnectivityTests;
+			productName = MultiPeerConnectivityTests;
+			productReference = BED723FB19FF576900DEF735 /* MultiPeerConnectivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BED723DA19FF576900DEF735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mr. McByte";
+				TargetAttributes = {
+					BED723E119FF576900DEF735 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BED723FA19FF576900DEF735 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 78SGZF4VA5;
+						TestTargetID = BED723E119FF576900DEF735;
+					};
+				};
+			};
+			buildConfigurationList = BED723DD19FF576900DEF735 /* Build configuration list for PBXProject "MultiPeerConnectivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BED723D919FF576900DEF735;
+			productRefGroup = BED723E319FF576900DEF735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BED723E119FF576900DEF735 /* MultiPeerConnectivity */,
+				BED723FA19FF576900DEF735 /* MultiPeerConnectivityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BED723E019FF576900DEF735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE411D7F1A084C6A00FA7BDD /* tabicon-android-30.png in Resources */,
+				BE411D801A084C6A00FA7BDD /* tabicon-android-50.png in Resources */,
+				BE411D811A084C6A00FA7BDD /* tabicon-apple-30.png in Resources */,
+				BE411D821A084C6A00FA7BDD /* tabicon-apple-50.png in Resources */,
+				BEC318B61AD983BE0013A96A /* Screenshot-RainbowConnection3.png in Resources */,
+				BEC318B81AD983BE0013A96A /* Screenshot-RainbowConnection2.png in Resources */,
+				BE411D831A084C6A00FA7BDD /* tabicon-monitor-30.png in Resources */,
+				BE411D841A084C6A00FA7BDD /* tabicon-monitor-50.png in Resources */,
+				BEC318B71AD983BE0013A96A /* Screenshot-RainbowConnection1.png in Resources */,
+				BED723F119FF576900DEF735 /* Main.storyboard in Resources */,
+				BED723F619FF576900DEF735 /* LaunchScreen.xib in Resources */,
+				BED723F319FF576900DEF735 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED723F919FF576900DEF735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BED723DE19FF576900DEF735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED7240D19FF7D1300DEF735 /* MainWithTabBar.m in Sources */,
+				BED7241019FF80CF00DEF735 /* ActivityMonitor.m in Sources */,
+				BE411D8A1A0866AD00FA7BDD /* AndroidNetworkingDelegate.m in Sources */,
+				BED723EB19FF576900DEF735 /* AppDelegate.m in Sources */,
+				BE411D871A08668900FA7BDD /* AndroidNetworking.m in Sources */,
+				BEE71C681A0616A7002E1EE0 /* Android.m in Sources */,
+				BE0D8E8F1A0322CC000127B9 /* MultiPeer.m in Sources */,
+				BED723E819FF576900DEF735 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED723F719FF576900DEF735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED7240219FF576900DEF735 /* MultiPeerConnectivityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BED723FD19FF576900DEF735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED723E119FF576900DEF735 /* MultiPeerConnectivity */;
+			targetProxy = BED723FC19FF576900DEF735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BED723EF19FF576900DEF735 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED723F019FF576900DEF735 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BED723F419FF576900DEF735 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED723F519FF576900DEF735 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BED7240319FF576900DEF735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Luke Sibala (78SGZF4VA5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luke Sibala (3SB4KXK3QR)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "734df744-99c0-4703-8b50-b08c9b3900d9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BED7240419FF576900DEF735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Luke Sibala (78SGZF4VA5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luke Sibala (3SB4KXK3QR)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "734df744-99c0-4703-8b50-b08c9b3900d9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BED7240619FF576900DEF735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Luke Sibala (78SGZF4VA5)";
+				INFOPLIST_FILE = MultiPeerConnectivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "747c63a0-818b-42ca-a2e9-31834e01d0d9";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BED7240719FF576900DEF735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Luke Sibala (78SGZF4VA5)";
+				INFOPLIST_FILE = MultiPeerConnectivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "747c63a0-818b-42ca-a2e9-31834e01d0d9";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BED7240919FF576900DEF735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiPeerConnectivityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiPeerConnectivity.app/MultiPeerConnectivity";
+			};
+			name = Debug;
+		};
+		BED7240A19FF576900DEF735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiPeerConnectivityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiPeerConnectivity.app/MultiPeerConnectivity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BED723DD19FF576900DEF735 /* Build configuration list for PBXProject "MultiPeerConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED7240319FF576900DEF735 /* Debug */,
+				BED7240419FF576900DEF735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED7240519FF576900DEF735 /* Build configuration list for PBXNativeTarget "MultiPeerConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED7240619FF576900DEF735 /* Debug */,
+				BED7240719FF576900DEF735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED7240819FF576900DEF735 /* Build configuration list for PBXNativeTarget "MultiPeerConnectivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED7240919FF576900DEF735 /* Debug */,
+				BED7240A19FF576900DEF735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BED723DA19FF576900DEF735 /* Project object */;
+}

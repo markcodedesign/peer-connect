@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>481257DE-C17A-483E-A695-19B72D4ABA45</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MultiPeerConnectivity</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F8548F5FDCD43AEDDAC12E20B40FDD40B94D321</key>
+		<string>https://bitbucket.org/mrmcbyte/chatme.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MultiPeerConnectivity.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F8548F5FDCD43AEDDAC12E20B40FDD40B94D321</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/mrmcbyte/chatme.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1F8548F5FDCD43AEDDAC12E20B40FDD40B94D321</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F8548F5FDCD43AEDDAC12E20B40FDD40B94D321</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MultiPeerConnectivity</string>
+		</dict>
+	</array>
+</dict>
+</plist>
